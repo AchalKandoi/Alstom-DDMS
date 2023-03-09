@@ -1,0 +1,58 @@
+.logo1 {
+    height: 60px;
+    width: 150px;
+}
+
+.logo2 {
+    height: 68px;
+    width: 200px;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-inline: 10px;
+}
+
+.Head {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: #404258;
+    font-weight: 400;
+}
+
+li a:hover{
+    color: #EB1D36;
+}
+
+ .active{
+    color: black;
+    font-weight: 800;
+ }
+
+li {
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+    font-family: "Play";
+}
+.Tab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Tab div{
+    height: 400px;
+    width: 352px;
+}
+.Tab div img{
+    height: 100%;
+    width: 100%;
+}
